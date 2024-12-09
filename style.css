@@ -1,6 +1,7 @@
 @font-face {
   font-family: Inter;
-  src: url("e79de15044935137-s.p.woff2") format("woff2");
+  src: url("https://cdn.jsdelivr.net/gh/gravymcstrut/web3-tool-kit/e79de15044935137-s.p.woff2")
+    format("woff2");
 }
 
 * {
