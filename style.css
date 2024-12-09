@@ -1,16 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700display=swap");
+@font-face {
+  font-family: Inter;
+  src: url("e79de15044935137-s.p.woff2") format("woff2");
+}
 
 * {
+  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
 }
 html {
   height: 100%;
 }
 body {
   height: 100%;
-  background: #000;
+  background: #1c1c26;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 100;
+  color: #ffffff82;
+  margin-top: 2rem;
 }
 
 .root {
@@ -21,48 +31,45 @@ body {
   align-items: center;
 }
 
-body::after {
-  content: "";
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 100vw;
-  height: 100vh;
-  background: radial-gradient(
-    circle at 100% 100%,
-    rgba(185, 118, 253, 0.432) 0%,
-    rgba(185, 118, 253, 0.068) 50%,
-    rgba(255, 255, 255, 0) 70%
-  );
-  z-index: -1;
-}
 .container {
   color: white;
   font-size: 1.4rem;
   width: 13em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 100vh;
+  }
 }
 
 .container b {
   font-size: 1.5rem;
 }
 
-.container {
-  text-align: center;
-}
-
 .container img {
   width: 9em;
   margin: 5px;
 }
+.container svg {
+  margin-top: 10rem;
+}
 
 .btn {
-  background: #5e01e8;
+  background: #a79fe8;
   color: white;
   border: none;
-  margin: 30px 0px;
+  margin-top: auto;
+  margin-bottom: 2rem;
   padding: 12px 24px;
   border-radius: 5px;
-  transition: background 100ms ease-in-out;
+  transition: 100ms ease-in-out;
+  width: 100%;
+  font-size: 1.1rem;
 }
 
 .btn:hover {
